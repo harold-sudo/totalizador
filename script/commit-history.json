@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-07T14:53:09.000Z",
+      "message": "First commit: Totalizador",
+      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 84,
+      "additions": 50,
+      "deletions": 34,
+      "date": "2025-09-07"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

@@ -1,15 +1,20 @@
-import sumar from "./sumador";
+import totalizar from "./totalizar.js";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const first = document.querySelector("#items-numero");
+const second = document.querySelector("#precio-numero");
+const total = document.querySelector("#totalizar-form");
+const mostrar = document.querySelector("#mostrar-form");
 const div = document.querySelector("#resultado-div");
+const mostrarDiv = document.querySelector("#mostrar-div");
 
-form.addEventListener("submit", (event) => {
+total.addEventListener("submit", (event) => {
   event.preventDefault();
+  const firstValue = Number(first.value);
+  const secondValue = Number(second.value);
+  div.innerHTML = "<p>" + "Precio neto: " + totalizar(firstValue, secondValue) + "</p>";
+});
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
-
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+mostrar.addEventListener("submit", (event) => {
+  event.preventDefault();
+  mostrarDiv.innerHTML = "<p>" + "Cantidad de items: " + first.value + "<br>" + "Precio por item: " + second.value + "</p>";
 });
