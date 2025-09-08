@@ -42,18 +42,18 @@ describe("Totalizar: ", () => {
   });
 
   it("deberia utilizar el descuento para 3000", () => {
-    expect(totalizar(3000, 5, tasasImpuesto["CA"])).toEqual(15787.5);
+    expect(totalizar(3000, 5, tasasImpuesto["CA"])).toEqual(15487.5);
   });
 
   it("deberia utilizar el descuento para 7000", () => {
-    expect(totalizar(7000, 5, tasasImpuesto["CA"])).toEqual(36837.5);
+    expect(totalizar(7000, 5, tasasImpuesto["CA"])).toEqual(35437.5);
   });
 
   it("deberia utilizar el descuento para 10000", () => {
-    expect(totalizar(10000, 5, tasasImpuesto["CA"])).toEqual(52625);
+    expect(totalizar(10000, 5, tasasImpuesto["CA"])).toEqual(49125);
   });
 
   it("deberia utilizar el descuento para 30000", () => {
-    expect(totalizar(30000, 5, tasasImpuesto["CA"])).toEqual(157875);
+    expect(totalizar(30000, 5, tasasImpuesto["CA"])).toEqual(139875);
   });
 });
