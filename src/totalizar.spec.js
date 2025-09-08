@@ -18,18 +18,22 @@ describe("Totalizar: ", () => {
   });
 
   it("deberia utilizar el impuesto de California", () => {
-    expect(totalizar(20, 3, "CA")).toEqual(64.95);
+    expect(totalizar(20, 3, tasasImpuesto["CA"])).toEqual(64.95);
   });
   
   it("deberia utilizar el impuesto de Alabama", () => {
-    expect(totalizar(20, 3, "AL")).toEqual(62.4);
+    expect(totalizar(20, 3, tasasImpuesto["AL"])).toEqual(62.4);
   });
   
   it("deberia utilizar el impuesto de Nevada", () => {
-    expect(totalizar(20, 3, "NV")).toEqual(64.8);
+    expect(totalizar(20, 3, tasasImpuesto["NV"])).toEqual(64.8);
   });
 
   it("deberia utilizar el impuesto de Utah", () => {
-    expect(totalizar(20, 3, "UT")).toEqual(63.99);
+    expect(totalizar(20, 3, tasasImpuesto["UT"])).toEqual(63.99);
+  });
+
+  it("deberia utilizar cualquier impuesto", () => {
+    expect(totalizar(20, 3, tasasImpuesto["TX"])).toEqual(63.75);
   });
 });
