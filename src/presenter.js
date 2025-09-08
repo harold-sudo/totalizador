@@ -23,7 +23,7 @@ total.addEventListener("submit", (event) => {
   const secondValue = Number(second.value);
   const estadoValue = estado.value;
 
-  div.innerHTML = "<p>" + "Precio neto: " + totalizar(firstValue, secondValue, tasasImpuesto[estadoValue]) + "</p>";
+  div.innerHTML = "<p>" + "Precio total: " + totalizar(firstValue, secondValue, tasasImpuesto[estadoValue]) + "</p>";
 });
 
 mostrar.addEventListener("submit", (event) => {

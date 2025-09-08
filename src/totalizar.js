@@ -22,7 +22,7 @@ function totalizar(cantidad, precio, impuesto) {
   //   descuento = cantidad * precio * (15/100);
   // }
 
-  if (!estado) {
+  if (!impuesto) {
     return (cantidad * precio) - descuento;
   }
   
