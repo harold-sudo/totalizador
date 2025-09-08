@@ -44,8 +44,8 @@ describe("Totalizar: ", () => {
   it("deberia utilizar el descuento para 3000", () => {
     expect(totalizar(3000, 5, tasasImpuesto["CA"])).toEqual(15787.5);
   });
-});
 
-// 3000 * 5 = 15000
-// 15000 - 5% = 14250
-// 12750 + 8.25% = 14737.5
+  it("deberia utilizar el descuento para 7000", () => {
+    expect(totalizar(7000, 5, tasasImpuesto["CA"])).toEqual(36837.5);
+  });
+});
