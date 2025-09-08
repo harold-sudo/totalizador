@@ -1,5 +1,3 @@
-import e from "express";
-
 function totalizar(cantidad, precio, estado) {
   let descuento = 0;
   if (cantidad >= 1000) {
@@ -10,6 +8,8 @@ function totalizar(cantidad, precio, estado) {
     descuento = cantidad * precio * (7/100);
   }else if (cantidad >= 10000) {
     descuento = cantidad * precio * (10/100);
+  }else if (cantidad >= 30000) {
+    descuento = cantidad * precio * (15/100);
   }
 
   if (!estado) {
