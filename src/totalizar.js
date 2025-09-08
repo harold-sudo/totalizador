@@ -1,12 +1,17 @@
 function totalizar(cantidad, precio, estado) {
+  let descuento = 0;
+  if (cantidad >= 1000) {
+    descuento = cantidad * precio * (3/100);
+  }
+
   if (!estado) {
-    return cantidad * precio;
+    return (cantidad * precio) - descuento;
   }
   
   const subtotal = cantidad * precio;
   const impuesto = subtotal * (Number(estado) / 100);
 
-  return subtotal + impuesto;
+  return (subtotal + impuesto) - descuento;
 }
 // function totalizar(cantidad, precio, estado) {
 //   if (estado == "CA")

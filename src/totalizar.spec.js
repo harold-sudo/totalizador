@@ -36,4 +36,8 @@ describe("Totalizar: ", () => {
   it("deberia utilizar cualquier impuesto", () => {
     expect(totalizar(20, 3, tasasImpuesto["TX"])).toEqual(63.75);
   });
+
+  it("deberia utilizar el descuento para 1000", () => {
+    expect(totalizar(1000, 5, tasasImpuesto["CA"])).toEqual(5262.5);
+  });
 });

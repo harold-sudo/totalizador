@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1d459395e8a68453ef2d9a62deb6c4704e0bb807",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-08T13:32:36.000Z",
       "message": "Feat: Refactorizado",
-      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+      "url": "https://github.com/harold-sudo/totalizador/commit/1d459395e8a68453ef2d9a62deb6c4704e0bb807"
     },
     "stats": {
       "total": 60,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-08T13:47:16.000Z",
+      "message": "Feat: descuento para 1000 items",
+      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 11,
+      "deletions": 2,
+      "date": "2025-09-08"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
