@@ -1,17 +1,36 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "bb785e43d630526e9ad0246780f27934d874f0be",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-07T14:53:09.000Z",
       "message": "First commit: Totalizador",
-      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+      "url": "https://github.com/harold-sudo/totalizador/commit/bb785e43d630526e9ad0246780f27934d874f0be"
     },
     "stats": {
       "total": 84,
       "additions": 50,
       "deletions": 34,
       "date": "2025-09-07"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-08T13:19:01.000Z",
+      "message": "Feat: Impuestos de estado",
+      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 65,
+      "additions": 57,
+      "deletions": 8,
+      "date": "2025-09-08"
     },
     "coverage": 100,
     "test_count": 2,
