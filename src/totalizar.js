@@ -2,8 +2,10 @@ function totalizar(cantidad, precio, estado) {
   let descuento = 0;
   if (cantidad >= 1000) {
     descuento = cantidad * precio * (3/100);
+  }else if (cantidad >= 3000) {
+    descuento = cantidad * precio * (5/100);
   }
-
+  
   if (!estado) {
     return (cantidad * precio) - descuento;
   }

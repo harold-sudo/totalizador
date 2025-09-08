@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "25ae38abb91a68931403037e568d27a4e471e93f",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-08T13:47:16.000Z",
       "message": "Feat: descuento para 1000 items",
-      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+      "url": "https://github.com/harold-sudo/totalizador/commit/25ae38abb91a68931403037e568d27a4e471e93f"
     },
     "stats": {
       "total": 13,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-08T17:17:16.000Z",
+      "message": "Feat: Descuento para 3000 items",
+      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2025-09-08"
+    },
+    "coverage": 90,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
