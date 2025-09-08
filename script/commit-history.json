@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3d930203b6e7c5bd434597baa5393a1fe0c63f41",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-08T13:19:01.000Z",
       "message": "Feat: Impuestos de estado",
-      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+      "url": "https://github.com/harold-sudo/totalizador/commit/3d930203b6e7c5bd434597baa5393a1fe0c63f41"
     },
     "stats": {
       "total": 65,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-08T13:28:17.000Z",
+      "message": "Fix: Precio con impuestos",
+      "url": "https://github.com/harold-sudo/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 54,
+      "additions": 41,
+      "deletions": 13,
+      "date": "2025-09-08"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

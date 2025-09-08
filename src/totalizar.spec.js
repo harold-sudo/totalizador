@@ -9,19 +9,27 @@ const tasasImpuesto = {
 };
 
 describe("Totalizar: ", () => {
-  // it("deberia devolver precio neto: ", () => {
-  //   expect(totalizar(3, 2)).toEqual(6);
-  // });
-
-  // it("deberia devolver cualquier caso de precio neto: ", () => {
-  //   expect(totalizar(10, 2)).toEqual(20);
-  // });
-
-  it("deberia utilizar el impuesto de un estado", () => {
-    expect(totalizar(20, 3, tasasImpuesto["TX"])).toEqual(63.75);
+  it("deberia devolver precio neto: ", () => {
+    expect(totalizar(3, 2)).toEqual(6);
   });
 
-  it("deberia utilizar el impuesto de cualquier estado", () => {
-    expect(totalizar(20, 3, tasasImpuesto["UT"])).toEqual(63.99);
+  it("deberia devolver cualquier caso de precio neto: ", () => {
+    expect(totalizar(10, 2)).toEqual(20);
+  });
+
+  it("deberia utilizar el impuesto de California", () => {
+    expect(totalizar(20, 3, "CA")).toEqual(64.95);
+  });
+  
+  it("deberia utilizar el impuesto de Alabama", () => {
+    expect(totalizar(20, 3, "AL")).toEqual(62.4);
+  });
+  
+  it("deberia utilizar el impuesto de Nevada", () => {
+    expect(totalizar(20, 3, "NV")).toEqual(64.8);
+  });
+
+  it("deberia utilizar el impuesto de Utah", () => {
+    expect(totalizar(20, 3, "UT")).toEqual(63.99);
   });
 });
